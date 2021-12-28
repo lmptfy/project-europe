@@ -1,0 +1,148 @@
+#evenement {
+  width: 100%;
+  height: auto;
+  padding-bottom: 60px;
+  margin-top: 100px;
+}
+#evenement #uptitle a {
+  color: #f0dcdd;
+}
+#eventscreen {
+    margin: auto;
+    left: 0; right: 0;
+    margin-top: 80px;
+    width: 1100px;
+    padding-top: 733.33px; /* 3:2 Aspect Ratio */
+    background-color: #bce4ed;
+    margin-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+#morevenement {
+  width: 300px;
+  height: 33px;
+  background-color: transparent;
+  border: solid #f0dcdd 3px;
+  color: #f0dcdd;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 33px;
+  text-align: center;
+  transition: 0.3s;
+  left: 0; right: 0;
+  margin: auto;
+}
+#morevenement:hover {
+  background-color: #f0dcdd;
+  color: #40404c;
+  cursor: pointer;
+}
+#butt {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 1100px;
+  text-align: center;
+}
+button {
+  margin-top: 50px;
+  width: 400px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: bold;
+  opacity: .6;
+}
+
+#butt-venir:hover {
+  opacity: 1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#butt-pass {
+}
+#butt-pass:hover {
+  opacity: 1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#avenir, #passe {
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 1100px;
+  margin-top: 80px;
+  margin-bottom: -70px;
+}
+.table {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 1100px;
+}
+#what {
+  color: white;
+  margin-top: -40px;
+}
+#description {
+  width: 600px;
+  color: white;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+  #butt {
+    width: 100%;
+  }
+  button {
+    margin-top: 0px;
+ }
+  #evenement {
+    height: auto;
+    margin-top: 150px;
+  }
+  #eventscreen {
+      width: 650px;
+      padding-top: 440px;
+  }
+  #avenir, #passe {
+    font-size: 3rem;
+    width: 650px;
+  }
+  .table {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+   button {
+    margin-bottom: -20px;
+    width: 60%;
+ }
+#evenement {
+    height: auto;
+  }
+  #eventscreen {
+      width: 100%;
+      padding-top: 66.66%;
+  }
+  #avenir, #passe {
+    margin-left: 30px;
+    width: 96%;
+    margin-left: 2%;
+    font-size: 2rem;
+  }
+  .table, #description {
+    width: 96%;
+    text-align: justify;
+    font-size: 14px;
+  }
+}

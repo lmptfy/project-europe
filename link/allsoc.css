@@ -1,0 +1,120 @@
+#feed-news {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 1100px;
+  height: auto;
+  margin-top: 100px;
+}
+#feed {
+  width: 500px;
+  height: 150px;
+  margin-bottom: 80px;
+  margin-right: 25px;
+  transition: 0.3s;
+  border-top: 16px #f54b59 solid;
+  float: left;
+}
+#feed:hover {
+  cursor: pointer;
+  box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+}
+.intro {
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -6px;
+  line-height: 150px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+#left {
+  width: 150px;
+  height: 150px;
+  float: left;
+  color: white;
+  font-size: 100px;
+  font-weight: 800;
+  font-family: times;
+  text-align: center;
+  line-height: 150px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+#right {
+  width: 300px;
+  height: 150px;
+  margin-left: 30px;
+  float: left;
+}
+#right p {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 85px;
+}
+
+@media only screen and (max-width: 1100px) {
+  #feed-news {
+    width: 600px;
+  }
+  #feed {
+    width: 600px;
+    margin-bottom: 80px;
+    margin-right: 0px;
+  }
+  .intro {
+    font-size: 4.5rem;
+    line-height: 1;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 670px) {
+  #feed-news {
+    width: 93%;
+    margin-top: 90px;
+  }
+  #feed {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 80px;
+    margin-right: 25px;
+    transition: 0.3s;
+    border-top: 16px #f54b59 solid;
+    float: left;
+  }
+  .intro {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -6px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  #left {
+    width: 100px;
+    height: 100px;
+    color: white;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  #right {
+    width: 210px;
+    height: 120px;
+    margin-left: 0px;
+    float: left;
+  }
+  #right p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: right;
+  }
+
+
+}

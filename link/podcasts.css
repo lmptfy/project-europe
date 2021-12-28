@@ -1,0 +1,123 @@
+#div5 {
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: rgb(26, 26, 26);
+  margin-bottom: 50px;
+}
+#podcasts {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 1300px;
+}
+.podcasts {
+  width: 600px;
+  height: 450px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 70px;
+}
+.podcasts img {
+  width: 600px;
+  height: 450px;
+}
+#promop {
+  color: #f1f1f1;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  height: 150px;
+  line-height: 2;
+  width: auto;
+  margin-top: -310px;
+}
+#promop .sc:hover {
+  color: #ff7700;
+}
+#promop .ap:hover {
+  color: #9541cc;
+}
+#promop .sp:hover {
+  color: #1db954;
+}
+#promop .br:hover {
+  color: rgb(29,110,251);
+}
+#promop .cb:hover {
+  color: rgb(241,93,57);
+}
+#promop .rp:hover {
+  color: rgb(203,19,43);
+}
+#promop .am:hover {
+  color: #3e9997;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+  #podcasts {
+    width: 650px;
+  }
+  #div5 {
+    height: 2220px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #div5 {
+    height: auto;
+  }
+  #podcasts {
+    width: 92%;
+    margin-left: 4%;
+  }
+  .podcasts {
+    width: 100%;
+    height: 350px;
+    float: center;
+    margin-left: 0px;
+    margin-bottom: 90px;
+  }
+  .podcasts:nth-child(2) {
+    margin-top: -90px;
+  }
+  .podcasts img {
+    width: 100%;
+    height: auto;
+    float: center;
+    margin-left: 0px;
+  }
+  #promop {
+    font-size: 12px;
+    height: 400px;
+    margin-top: -195px;
+    margin-bottom: 300px;
+    line-height: 1.6;
+  }
+  #promop .sc {
+    color: #ff7700;
+  }
+  #promop .ap {
+    color: #9541cc;
+  }
+  #promop .sp {
+    color: #1db954;
+  }
+  #promop .br {
+    color: rgb(29,110,251);
+  }
+  #promop .cb {
+    color: rgb(241,93,57);
+  }
+  #promop .rp {
+    color: rgb(203,19,43);
+  }
+  #promop .am {
+    color: #3e9997;
+  }
+}

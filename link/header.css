@@ -1,0 +1,112 @@
+.dropdown {
+  float: right;
+  line-height: 100px;
+  width: auto;
+  margin-right: 3%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -30px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 19px 16px;
+    line-height: 26px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #930025;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+#banner {
+  font-size: 20px;
+  font-weight: 600;
+  width: 96%;
+  height: 100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0px;
+  border-bottom: solid #930025 1px;
+  position: fixed;
+  display: block;
+  transition: top 0.5s;
+  background-color: white;
+  z-index: 999;
+}
+#bannerlogo {
+  position: absolute;
+  text-align: center;
+  width: 40%;
+  line-height: 100px;
+  left: 30%;
+  text-decoration: none;
+  font-family : "poppins" sans-serif;
+  font-weight : 700;
+  font-style: italic;
+  letter-spacing: -1px;
+  font-size: 36px;
+}
+#donate, #sub, #login, #searchbar {
+  float: right;
+  line-height: 100px;
+  width: auto;
+  margin-right: 3%;
+}
+#svg {
+  height: 26px;
+  width: 26px;
+}
+#searchbar {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+  #bannerlogo {
+    width: auto;
+    left: 100px;
+    right:37%;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #bannerlogo {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  #banner {
+    font-size: 13px;
+    width: 100%;
+    height: 80px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-bottom: solid #930025 2px;
+    z-index: 1299;
+  }
+  #donate, #sub, #login, #searchbar {
+    line-height: 80px;
+  }
+  #svg {
+    height: 18px;
+    width: 18px;
+  }
+  .dropdown {
+    line-height: 80px;
+  }
+
+}

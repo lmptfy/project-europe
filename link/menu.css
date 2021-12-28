@@ -1,0 +1,156 @@
+/* menu icon */
+
+.menu-icon {
+z-index: 100;
+transition: .3s ease-out;
+display: inline-block;
+float: left;
+padding: 50px 70px;
+position: relative;
+user-select: none;
+z-index: 100000001;
+}
+
+.menu-icon .navicon {
+background: #101010;
+display: block;
+height: 2px;
+border-radius: 6px;
+position: relative;
+transition: .2s ease-out;
+width: 30px;
+z-index: 100000001;
+}
+.menu-icon .navicon:before,
+.menu-icon .navicon:after {
+background: #101010;
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+transition: all .2s ease-out;
+width: 100%;
+z-index: 100000001;
+}
+.menu-icon .navicon:before {
+top: 10px;
+border-radius: 4px;
+z-index: 100000001;
+}
+
+.menu-icon .navicon:after {
+top: -10px;
+border-radius: 4px;
+z-index: 100000001;
+}
+
+/* menu btn */
+
+.menu-btn {
+display: none;
+z-index: 100000001;
+}
+
+.menu-btn:checked ~ .menu {
+max-height: 240px;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon {
+background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:before {
+transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:after {
+transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+top: 0;
+}
+ #menu {
+  float: left;
+  position: fixed;
+  z-index: 100;
+  left: 0px;
+  top: -330px;
+  width: 96%;
+  left: 2%;
+  height: 300px;
+  display: inline-block;
+  background: white;
+  transition: .5s ease-out;
+  color: black;
+  border-bottom: solid #930025 1px;
+  -webkit-transition: .5;
+
+}
+.mf {
+  margin-top: 10px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 290px;
+  width: 20%;
+  float: inherit;
+  font-size: 15px;
+  font-weight:500;
+  color: black;
+  text-align: left;
+  line-height: 2;
+}
+#mf2 {
+  margin-left: 10%;
+}
+.mf h2 {
+  line-height:1;
+  font-size:23px;
+  font-weight:700;
+}
+
+
+
+
+
+@media screen and (max-width: 835px) {
+
+  .menu-icon .navicon {
+    width: 24px;
+}
+  .menu-icon .navicon:before {
+  top: 7px;
+}
+  .menu-icon .navicon:after {
+  top: -7px;
+}
+  .menu-icon {
+  padding: 40px 25px;
+}
+#menu {
+  height: 400px;
+  width:100%;
+  left: 0px;
+  top: -430px;
+  z-index: 1220;
+}
+.mf {
+  margin-top: 0px;
+  height: 200px;
+  width: 47.5%;
+  float: inherit;
+  font-size: 13px;
+  font-weight:400;
+  text-align: left;
+}
+.mf h2 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+#mf2,#mf4 {
+  margin-left: 5%;
+}
+
+}

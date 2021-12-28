@@ -1,0 +1,299 @@
+#artimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #930025;
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  left: 0; right: 0;
+  position: relative;
+  margin-top: 100px;
+}
+#artinfo {
+  margin: auto;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  width: 1200px;
+  height: auto;
+  margin-top: 50px;
+  position: absolute;
+}
+#disclaimer {
+  background-color: #930025;
+  width: 100%;
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+}
+#disclaimer p {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#disclaimer button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#artinfo svg {
+  cursor: auto;
+}
+#artinfo a {
+  color: #930025;
+}
+#art {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  left: 60px;
+  right: 0;
+  top: -150px;
+  position: relative;
+  background-color: white;
+}
+img {
+  width: 800px;
+  height: auto;
+}
+#artitle {
+  text-align: center;
+  font-size: 50px;
+  line-height: 1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+#artprem {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Poppins";
+  font-weight: 500;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -50px;
+}
+#artext {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 2.2;
+  font-family: "Poppins";
+  font-style: normal;
+  margin-top: 80px;
+}
+#artbiblio {
+  font-family: "Poppins";
+  line-height: 1;
+  font-size: 15px;
+  margin-top: 80px;
+  font-weight: bold;
+}
+ol {
+  font-family: "Poppins";
+  line-height: 1;
+  font-size: 11px;
+}
+#first {
+  font-size: 80px;
+  color: #930025;
+  line-height: 1px;
+}
+#artauthor {
+  font-size: 20px;
+  font-family: "Poppins";
+  margin-top: 50px;
+}
+#artauthor a {
+  color: #930025;
+  font-weight: bold;
+}
+#sharebutton {
+  width: 876px;
+  height: 300px;
+  margin: auto;
+  left: 0; right: 0;
+}
+#sharebutton a {
+  width: 146px;
+  height: 56px;
+  margin-right: 7px;
+  border: 2px transparent solid;
+  margin-left: 7px;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin-bottom: 15px;
+  transition: .4s;
+  -webkit-transition: .4s;
+}
+#sharebutton a:hover {
+  color: black;
+  border: 2px black solid;
+  background-color: transparent;
+}
+#sharebutton .sh1 {
+  background-color: #657786;
+}
+#sharebutton .sh2 {
+  background-color: #002663;
+}
+#sharebutton .sh3 {
+  background-color: #128c7e;
+}
+#sharebutton .sh4 {
+  background-color: #7bb32e;
+}
+#sharebutton .sh5 {
+  background-color: #3b5998;
+}
+#sharebutton .sh6 {
+  background-color: #0077b5;
+}
+#sharebutton .sh7 {
+  background-color: #1da1f2;
+}
+#sharebutton .sh8 {
+  background-color: #4d4f53;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  #artimg {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 80px;
+  }
+  #artinfo {
+    z-index: 900;
+    width: 600px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: -115px;
+  }
+  #art {
+    width: 650px;
+    left: 0;
+    right: 0;
+    height: auto;
+    top: -190px;
+  }
+  img {
+    width: 650px;
+  }
+  #artitle {
+    line-height: 1;
+    padding-top: 150px;
+  }
+  #artprem {
+    line-height: 1.2;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+  #artext {
+    text-align: justify;
+    line-height: 2;
+    font-style: normal;
+    margin-top: 80px;
+  }
+  #first {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #artinfo {
+    font-size: 14px;
+    width:90%;
+    height:;
+    margin-top: -175px;
+    margin-left: 10px;
+}
+  #artimg {
+  }
+  #art {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+
+  #artitle {
+    margin-top: 0px;
+    padding-top: 160px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: 0px;
+    font-size: 44px;
+  }
+  #artprem {
+    line-height: 1.5;
+    font-size: 16px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -40px;
+  }
+  #artext {
+    line-height: 1.9;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 400;
+    text-align: justify;
+  }
+  #first {
+    font-size: 100px;
+  }
+  #artbiblio {
+    font-family: "Poppins";
+    width: 90%;
+    margin-left: 5%;
+    line-height: 1;
+    font-size: 15px;
+    margin-top: 80px;
+    font-weight: bold;
+  }
+  ol {
+    width: 300px;
+    margin-left: 5%;
+    font-family: "Poppins";
+    line-height: 1;
+    font-size: 11px;
+  }
+  #first {
+    font-size: 80px;
+    color: #930025;
+    line-height: 1px;
+  }
+  #artauthor {
+    font-size: 20px;
+    font-family: "Poppins";
+    margin-top: 50px;
+    margin-left: 5%;
+  }
+  #artauthor a {
+    color: #930025;
+    font-weight: bold;
+  }
+}
